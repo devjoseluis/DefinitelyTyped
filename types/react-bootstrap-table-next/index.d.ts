@@ -475,6 +475,7 @@ export interface BootstrapTableProps<T extends object = any> {
     };
     defaultSortDirection?: SortOrder;
     overlay?: any;
+    loading?: bool;
     onTableChange?: TableChangeHandler<T>;
     onSort?: any;
     onFilter?: any;
